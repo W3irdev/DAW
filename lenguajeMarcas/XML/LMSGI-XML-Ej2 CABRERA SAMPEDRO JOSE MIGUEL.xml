@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Ejercicio 1 -->
+
+<deportistas>
+    <deportista>
+        <deporte>Atletismo</deporte>  <!-- Faltaba > en la etiqueta; faltaba cierre de etiqueta deporte-->
+        <nombre>Jesse Owens</nombre>
+    </deportista>
+    <deportista> <!-- faltaba una etiqueta deportista -->
+        <deporte>Natación</deporte>  <!-- Faltaba > en la etiqueta; faltaba cierre de etiqueta deporte-->
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>
+
+<!-- Ejercicio 2 -->
+
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<filmoteca> <!-- falta nodo raiz -->
+    <pelicula>
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula>
+        <director>Leo McCarey</director>
+        <titulo>Sopa de ganso</titulo>
+        <autor>barto</autor> <!-- debe ir dentro del grupo al que pertenece -->
+    </pelicula>
+</filmoteca>
+    
+
+<!-- Ejercicio 3 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+    <titulo>XML explicado a los niños</titulo> <!-- Nombre de etiqueta es case sensitive -->
+        <parrafo>El 
+            <abreviatura>XML</abreviatura>
+            define cómo crear lenguajes de marcas.</parrafo>
+        <parrafo>Las marcas se añaden a un documento de texto para añadir información.</parrafo> <!-- etiquetas sin tilde -->
+        <http>www.example.org</http> <!-- Caracteres especiales (/) y (:) en nombre de etiquetas -->
+</texto>
+
+<!-- Ejercicio 4 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<geografiamundial> <!-- si mundial no va a ser atributo, no puede llevar espacio como nombre de la etiqueta -->
+<!-- Sobra una etiqueta <pais> -->
+<pais>España</pais>
+    <continente>Europa</continente>
+    <capital nombre="Madrid"></capital> <!-- Atributo en la etiqueta de apertura, no en la de cierre; esta etiqueta no contiene informacion -->
+</geografiamundial>
+
+<!-- Ejercicio 5 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+    <programa nombre="Firefox" licencia="GPL"></programa> <!-- El atributo licencia ya ha sido usado, falta cierre de etiqueta -->
+    <programa nombre="OpenOffice.org" licencia="LGPL"></programa> <!-- En el atributo falta entrecomillado -->
+    <programa nombre="Inkscape" licencia="GPL"></programa>
+</programas>
+
+<!-- Ejercicio 6 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+    <mundial>
+        <pais>España</pais> <!-- Apertura y cierre de etiqueta incorrecto, el elemento esta mal colocado -->
+<!-- Esta etiqueta no indica nada <1982/> -->
+    </mundial>
+</mundiales-de-futbol>
+
+<!-- Ejercicio 7 -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+    <bicicleta velocidad="100km/h"></bicicleta> <!--Falta cierre de etiquetas y mala sintasis del atributo -->
+    <patinete velocidadmaxima="50 km/h"></patinete> <!--Falta cierre de etiquetas, y nombre de atributo no puede llevar espacio-->
+</mediosDeTransporte>

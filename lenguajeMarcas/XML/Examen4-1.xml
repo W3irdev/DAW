@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Correccion de apertura y cierre -->
+
+<flota> <!-- Creacion de etiqueta para para englobar vehiculos -->
+    <terrestres>
+        <vehiculo>bicicleta</vehiculo> <!-- toda etiqueta escrita correctamente, aqui hemos quitado una tilde -->
+        <vehiculo>coche</vehiculo>
+        <vehiculo>tractor</vehiculo>
+    </terrestres> <!-- cierre correcto de etiqueta -->
+    <acuaticos>
+        <vehiculo>canoa</vehiculo>
+
+    </acuaticos> <!-- cierre correcto de la etiqueta, cambiando de lugar / -->
+    <aereos><!-- Correccion de etiqueta aereos -->
+        <vehiculo>avioneta</vehiculo> <!-- cierre de etiqueta al final -->
+        <vehiculo>helicóptero</vehiculo> <!-- Cierre de etiqueta -->
+
+    </aereos>
+</flota>
+

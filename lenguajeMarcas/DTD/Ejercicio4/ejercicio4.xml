@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE videoclub SYSTEM "ejercicio4.dtd">
+<videoclub>
+    <factura numero="F7">
+        <datosClientes ID="12">
+            <nombre>Jose Miguel</nombre>
+            <primerApellido>Cabrera</primerApellido>
+            <segundoApellido>Sampedro</segundoApellido>
+            <DNI>12345678C</DNI>
+            <telefono>666666666</telefono>
+        </datosClientes>
+        <datosTicket>
+            <resguardo>
+                <formaPago>Tarjeta</formaPago>
+                <total>56</total>
+            </resguardo>
+            <alquiler>
+                <fechaDevolucion>
+                    <dia>12</dia>
+                    <mes>2</mes>
+                    <anyo>1999</anyo>
+                </fechaDevolucion>
+                <pelicula id="1" valoracion="5">
+                <titulo>Lo que el viento se llevo</titulo>
+                <genero>Belica</genero>
+                <duracion>120</duracion>
+                <actor>Amanda Young</actor>
+                <actor>Leonardo DiCaprio</actor>
+                <actor>Viggo Mortensen</actor>
+                </pelicula>
+            </alquiler>
+            <compra>
+                <DVD extras="N">
+                    <titulo>El señor de los anillos</titulo>
+                    <fechaSalida>
+                        <dia>21</dia>
+                        <mes>12</mes>
+                        <anyo>2005</anyo>
+                    </fechaSalida>
+                </DVD>
+                <cinta>
+                    <formato rebobinado="S"></formato>
+                </cinta>
+            </compra>
+        </datosTicket>
+    </factura>
+</videoclub>

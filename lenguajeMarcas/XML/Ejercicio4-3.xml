@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Crea un documento XML bien formado que almacene la bandeja de entrada
+de un programa de correo electrónico, en el que cada correo posea la
+siguiente información: remitente (con nombre e email), destinatario (con
+nombre e email), asunto y cuerpo (por párrafos).-->
+
+<servidorCorreo>
+    <bandejaEntrada>
+        <remitente email="carlospe@gmail.com">Carlos Perez</remitente>
+        <destinatario email="luisaru@gmail.com">Luisa Ruiz</destinatario>
+        <asunto>Sobre el contrato</asunto>
+        <cuerpo><p1>Me pongo en contacto con usted para...</p1>
+        <p2>Me despido, gracias un saludo</p2>
+        </cuerpo>
+
+    </bandejaEntrada>
+</servidorCorreo>

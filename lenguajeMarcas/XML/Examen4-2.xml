@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosdetransporte> <!-- La etiqueta de apertura y cierre, es case sensitive y tanto uno como otro tiene que estar igualmente escrito -->
+    <vehiculos> <!-- uso de la etiqueta vehiculo tanto en bicicleta como patienete, tambien son vehiculos y tiene que tener padre -->
+        <bicicleta velocidad="100km/h"></bicicleta> <!-- Cierre y atributo corregido -->
+        <coche velocidad="120km/h"></coche>
+        <camión velocidadMaxima="80Km/h"></camión>
+    </vehiculos>
+</mediosdetransporte>

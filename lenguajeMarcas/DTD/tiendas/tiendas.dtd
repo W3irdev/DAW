@@ -1,0 +1,9 @@
+<!ELEMENT tiendas (tienda)+>
+<!ELEMENT tienda (nombre+, direccion+, distribuidor?,movil+)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT distribuidor (#PCDATA)>
+<!ELEMENT movil (marca, caracteristicas)>
+<!ATTLIST movil codigo ID #REQUIRED>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT caracteristicas (#PCDATA)>

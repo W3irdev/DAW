@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Falta declaracion de lenguaje -->
+
+<escritores>
+    <escritor>
+        <nombre>Mario Vargas Llosa</nombre>
+        <nacimiento>28 de Marzo de 1936</nacimiento>
+    </escritor>
+    <escritor>
+        <nombre>Milan Kundera</nombre>
+        <nacimiento>15 de febrero de 1949</nacimiento>
+    </escritor>
+    <escritor>
+        <nombre></nombre>
+        <nacimiento>1 de Abril de 1929</nacimiento>
+    </escritor>
+</escritores>

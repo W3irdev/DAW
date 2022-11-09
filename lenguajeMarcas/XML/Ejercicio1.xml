@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Ejercicio 1 -->
+
+<libros>
+    <libro>
+        <nombre>El diario de una princesa muerta</nombre>
+    </libro>
+    <libro>
+        <nombre>Lo que nunca te conté</nombre>
+    </libro>
+</libros>
+
+<!-- linea 1 termina con ?> -->
+<!-- linea 4 etiqueta de cierre / -->
+<!-- linea 2 espacio inicial y linea 4 espacio inicial -->
+<!-- linea 7 etiqueta de cierre / -->
+
+<!-- Ejercicio 2 -->
+
+<numeros>
+    <uno letra1="u" letra2="n" letra3="o">1</uno> <!-- linea 3 etiqueta de cierre, y no puede empezar con numero, no se pueden repetir atributos en una misma etiqueta-->
+    <dos letra1="d" letra2="o" letra3="s">22</dos><!-- linea 4 etiqueta de cierre, y no puede empezar con numero-->
+    <seis letra1="s" letra2="e" letra3="i" letra4="s">666666</seis><!-- linea 5 etiqueta de cierre, y no puede empezar con numero-->
+</numeros>
+
+<!-- Ejercicio 3 -->
+
+<!-- https://www.xmlvalidation.com/ -->

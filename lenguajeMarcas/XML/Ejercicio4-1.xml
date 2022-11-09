@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Crea un documento XML bien formado que almacene una agenda en la que
+cada contacto tenga un nombre sólo, y un número aleatorio de emails y
+teléfonos. -->
+
+<agenda>
+    <contacto>
+        <nombre>Almudena</nombre>
+        <email>almudena2113@gmail.com</email>
+        <telefono>658859241</telefono>
+    </contacto>
+</agenda>

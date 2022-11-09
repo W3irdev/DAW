@@ -1,0 +1,33 @@
+<!ELEMENT videoclub (factura)>
+<!ELEMENT factura (datosClientes,datosTicket)>
+<!ATTLIST factura numero ID #REQUIRED>
+<!ELEMENT datosClientes (nombre,primerApellido,segundoApellido,DNI,telefono*)>
+<!ATTLIST datosClientes ID NMTOKEN #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT primerApellido (#PCDATA)>
+<!ELEMENT segundoApellido (#PCDATA)>
+<!ELEMENT DNI (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT datosTicket (resguardo?,alquiler,compra)>
+<!ELEMENT resguardo (formaPago,total)>
+<!ELEMENT formaPago (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT alquiler (fechaDevolucion,pelicula)>
+<!ELEMENT fechaDevolucion (dia,mes,anyo)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT anyo (#PCDATA)>
+<!ELEMENT pelicula (titulo,genero,duracion,actor+)>
+<!ATTLIST pelicula id NMTOKEN #REQUIRED>
+<!ATTLIST pelicula valoracion NMTOKEN #REQUIRED>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT compra (DVD,cinta)>
+<!ELEMENT DVD (titulo,fechaSalida)>
+<!ATTLIST DVD extras ( S | N ) "N">
+<!ELEMENT fechaSalida (dia,mes,anyo)>
+<!ELEMENT cinta (formato)>
+<!ELEMENT formato (#PCDATA)>
+<!ATTLIST formato rebobinado NMTOKEN #REQUIRED>

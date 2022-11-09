@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tickets>
+    <ticket CODIGO="1">
+        <datosTicket>
+            <fecha>
+                <dia>20</dia>
+                <mes>04</mes>
+                <año>2020</año>
+            </fecha>
+            <hora>13:21</hora>
+            <TOTAL>
+                <neto>100</neto>
+                <IVA>16</IVA>
+                <PVP>116</PVP>
+            </TOTAL>
+            <formaPago>
+                <efectivo>0</efectivo> <!-- Etiquetas efectivo y tarjeta por separado, por si se paga una parte con tarjeta y otra efectivo -->
+                <tarjeta TIPO="VISA" NUMERO="************4268">
+                    <nombreCliente>Franchesca Pirgolini</nombreCliente>
+                </tarjeta>
+            </formaPago>
+            <datosComercio CIF="28695974C">
+                <nombre>LATIENDA S.A.U</nombre>
+                <direccion>C/ LugarIndicado, 26</direccion>
+                <telefono>720216978</telefono>
+            </datosComercio>
+            <datosCompra>
+                <articulo>
+                    <nombre>ELMEJORQUETENEMOS</nombre>
+                    <cantidad>1</cantidad>
+                    <neto>100</neto>
+                    <PVP>121</PVP>
+                </articulo>
+            </datosCompra>
+        </datosTicket>
+    </ticket>
+</tickets>

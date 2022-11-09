@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Crea un documento XML bien formado que almacene los datos que se
+encuentran en la siguiente imagen-->
+
+<empresa>
+    <empleado ID="1968">
+        <Apellido>Burgos</Apellido>
+        <Nombre>Jeronimo</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administración</Facultad>
+        <Cargo>Administrativo</Cargo>
+        <Salario>3.200</Salario>
+        <FechaComienzo>05/04/1982</FechaComienzo>
+        <FechaNacimiento>28/09/1951</FechaNacimiento>
+    </empleado>
+    <empleado ID="1674">
+        <Apellido>Villegas</Apellido>
+        <Nombre>Estefania</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administración</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3.200</Salario>
+        <FechaComienzo>25/03/1992</FechaComienzo>
+        <FechaNacimiento>17/01/1964</FechaNacimiento>
+    </empleado>
+    <empleado ID="1516">
+        <Apellido>Fernandez</Apellido>
+        <Nombre>Guillermo</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administración</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>4.500</Salario>
+        <FechaComienzo>06/03/1985</FechaComienzo>
+        <FechaNacimiento>26/06/1963</FechaNacimiento>
+    </empleado>
+    <empleado ID="1330">
+        <Apellido>Ramirez</Apellido>
+        <Nombre>Eliana</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administración</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3.200</Salario>
+        <FechaComienzo>14/02/1989</FechaComienzo>
+        <FechaNacimiento>17/05/1964</FechaNacimiento>
+    </empleado>
+    <empleado ID="1657">
+        <Apellido>Carmona</Apellido>
+        <Nombre>Jose</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administración</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3.200</Salario>
+        <FechaComienzo>06/12/1987</FechaComienzo>
+        <FechaNacimiento>10/10/1963</FechaNacimiento>
+    </empleado>
+    <empleado ID="1573">
+        <Apellido>De Santis</Apellido>
+        <Nombre>Marcela</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administración</Facultad>
+        <Cargo>Aux. Administrativo</Cargo>
+        <Salario>1.500</Salario>
+        <FechaComienzo>07/07/1988</FechaComienzo>
+        <FechaNacimiento>31/05/1960</FechaNacimiento>
+    </empleado>
+    <empleado ID="1658">
+        <Apellido>Franco</Apellido>
+        <Nombre>Daniela</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Administración</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3.200</Salario>
+        <FechaComienzo>06/06/1988</FechaComienzo>
+        <FechaNacimiento>14/10/1963</FechaNacimiento>
+    </empleado>
+    <empleado ID="1078">
+        <Apellido>Cortés</Apellido>
+        <Nombre>Rafael</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Diseño</Facultad>
+        <Cargo>Administrativo</Cargo>
+        <Salario>4.200</Salario>
+        <FechaComienzo>01/04/1986</FechaComienzo>
+        <FechaNacimiento>21/11/1962</FechaNacimiento>
+    </empleado>
+    <empleado ID="1695">
+        <Apellido>Bemo</Apellido>
+        <Nombre>Camilo</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Diseño</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3.200</Salario>
+        <FechaComienzo>20/10/1984</FechaComienzo>
+        <FechaNacimiento>05/01/1960</FechaNacimiento>
+    </empleado>
+    <empleado ID="1285">
+        <Apellido>Arias</Apellido>
+        <Nombre>Francisco</Nombre>
+        <Seccional>Palmira</Seccional>
+        <Facultad>Diseño</Facultad>
+        <Cargo>Docente</Cargo>
+        <Salario>3.200</Salario>
+        <FechaComienzo>27/12/1984</FechaComienzo>
+        <FechaNacimiento>22/12/1962</FechaNacimiento>
+    </empleado>
+</empresa>

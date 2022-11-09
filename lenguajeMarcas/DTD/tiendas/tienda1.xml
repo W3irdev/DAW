@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiendas SYSTEM "tiendas.dtd">
+
+<tiendas>
+    <tienda>
+        <nombre>LatiendaMovil</nombre>
+        <direccion>C/DOndevenden, 24</direccion>
+        <distribuidor></distribuidor>
+        <movil codigo="M355">
+            <marca>Alcatel</marca>
+            <caracteristicas>Snapdragon Lagartija</caracteristicas>
+        </movil>
+
+
+    </tienda>
+</tiendas>
